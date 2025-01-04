@@ -1,7 +1,9 @@
 ﻿# LEDSign
- ![image](https://github.com/user-attachments/assets/32ceee8c-6525-4c8e-ae65-d7121a615efe)
+<div align="center"><img src="https://github.com/user-attachments/assets/32ceee8c-6525-4c8e-ae65-d7121a615efe" style="margin:auto" height="400"/></div>
 
 This project provides 3D-Model, hardware and source code for a simple LEDSign. It has been designed for a project in the CRBK upper grammar school.
+
+A instruction on how to build a LEDSign you can find [here](ANLEITUNG.md).
 
 ## Hardware PCB
 There are different versions of the PCB-Board.
