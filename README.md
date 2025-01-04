@@ -1,5 +1,7 @@
 ﻿# LEDSign
-This project provides 3D-Model, hardware and source code of a project for a simple LEDSign. It has been designed for a prject in the CRBK upper grammar school.
+ ![image](https://github.com/user-attachments/assets/32ceee8c-6525-4c8e-ae65-d7121a615efe)
+
+This project provides 3D-Model, hardware and source code for a simple LEDSign. It has been designed for a project in the CRBK upper grammar school.
 
 ## Hardware PCB
 There are different versions of the PCB-Board.
@@ -21,6 +23,7 @@ The Software mainly provides a class for accessing the LED-PCB board with it's f
 Versions:
 |HW-Version|Kompatible SW|µC|Besonderheiten|
 |---|---|---|---|
-|LEDSign24.1N|LEDSign24.1N|Arduino Nano|einfache Version mit Knopf und LDR allerdings nur SW dimming|
-|LEDSign24.2N|LEDSign24.2N|Arduino Nano|Taster, LDR und DS18B20 - nur SW dimming|
-|LEDSign24.3N|LEDSign24.2N|Arduino Nano|Taster, LDR und DS18B20 HW-dimming|
+|before 24|LEDSign23.0N|Arduino Nano|Taster, LDR - nur SW dimming|
+|LEDSign24.1N|LEDSign24.1N|Arduino Nano|Taster, LDR|
+|LEDSign24.2N|LEDSign24.2N|Arduino Nano|Taster, LDR und DS18B20|
+|LEDSign24.3N|LEDSign24.2N|Arduino Nano|Taster, LDR und DS18B20, andere Platzierung|
