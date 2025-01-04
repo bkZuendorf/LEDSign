@@ -1,6 +1,6 @@
 #include "arduino.h"
 
-#define D_ENABLEOUTPUT 4
+#define D_ENABLEOUTPUT 5
 #define D_SHIFTREGCLR 7
 #define D_SERIN 8 
 #define D_SHIFTREGCLK 3
