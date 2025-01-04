@@ -22,7 +22,7 @@ Some of them have special features like:
 ## Software
 The Software mainly provides a class for accessing the LED-PCB board with it's features. Easily allows to set/unset LEDs and use the features like brightness dependend dimming.
 
-Versions:
+## Versions <a name="versions"></a>
 |HW-Version|Kompatible SW|µC|Besonderheiten|
 |---|---|---|---|
 |before 24|LEDSign23.0N|Arduino Nano|Taster, LDR - nur SW dimming|
