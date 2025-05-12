@@ -11,8 +11,8 @@
 LEDDisplay display;
 
 void setup() {
-  display.init();  // display initialisieren
   Serial.begin(9600);
+  display.init();  // display initialisieren
 }
 
 void loop() {  

@@ -58,6 +58,7 @@ void LEDDisplay::init() {
   attachInterrupt(digitalPinToInterrupt(BUTTON), ISR_onButton, RISING);
 
   // no blocking temp conversion
+  tempSensor.begin();
   tempSensor.setWaitForConversion(false);
   anasum = 10*analogRead(LDR);
 }
@@ -152,7 +153,7 @@ void LEDDisplay::commit() {
   byte temp = this->value;
   const byte del=10;
   
-  for(int i=0; i<8; i++) {
+  for(int i=7; i>=0; i--) {
     digitalWrite(SERIN, (temp>>i) & 0x01); // Lege Pegel des jeweiligen Bits an Eingang
     delayMicroseconds(del);
     // aktiviere Schiebeaktion
